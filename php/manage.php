@@ -4,12 +4,12 @@ require_once 'functions.php';
 $type = $_GET['type'] ?? 'salles';
 $items = charger_donnees($type);
 
-// Handle POST for saving
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $action = $_POST['action'] ?? '';
     if ($action === 'save') {
         $new_items = [];
-        // Reconstruct items from flat POST array
+
         if (isset($_POST['id'])) {
             foreach ($_POST['id'] as $idx => $id) {
                 if (empty($id)) continue;

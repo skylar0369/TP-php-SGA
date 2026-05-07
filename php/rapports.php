@@ -50,7 +50,7 @@ include 'header.php';
 </div>
 
 <?php 
-// Trigger text report generation like in the server.ts
+
 $textReport = "RAPPORT D'OCCUPATION DES SALLES\n" . str_repeat("=", 30) . "\n";
 foreach ($stats as $r) {
     $textReport .= "Salle: {$r['id']} ({$r['designation']})\n";

@@ -20,7 +20,7 @@ $current_user = $_SESSION['user_id'];
 </head>
 <body class="bg-surface text-slate-900">
     <div class="min-h-screen flex flex-col md:flex-row">
-        <!-- Sidebar -->
+        
         <aside class="w-full md:w-64 bg-white border-r border-slate-200 flex flex-col shadow-sm">
             <div class="p-8">
                 <div class="flex items-center gap-3 text-indigo-600">
@@ -52,5 +52,5 @@ $current_user = $_SESSION['user_id'];
             </div>
         </aside>
 
-        <!-- Main Content -->
+       
         <main class="flex-1 p-4 md:p-8">

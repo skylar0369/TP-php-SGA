@@ -1,5 +1,5 @@
 <?php
-// functions.php - Core Logic for SGA UPC PHP
+
 
 define('DATA_DIR', __DIR__ . '/data');
 
@@ -19,7 +19,7 @@ function sauvegarder_donnees($fichier, $data) {
     file_put_contents($path, json_encode($data, JSON_PRETTY_PRINT));
 }
 
-// Algorithm helpers
+
 function salle_disponible($planning, $id_salle, $jour, $creneau) {
     foreach ($planning as $p) {
         if ($p['id_salle'] === $id_salle && $p['jour'] === $jour && $p['creneau'] === $creneau) {
@@ -35,7 +35,7 @@ function creneau_libre_groupe($planning, $id_groupe, $jour, $creneau, $options) 
         
         if ($p['id_groupe'] === $id_groupe) return false;
         
-        // Check if group is an option and p.id_groupe is its parent promotion
+       
         foreach ($options as $o) {
             if ($o['id'] === $id_groupe && $o['promotionParent'] === $p['id_groupe']) return false;
             if ($o['id'] === $p['id_groupe'] && $o['promotionParent'] === $id_groupe) return false;
@@ -78,7 +78,7 @@ function generate_planning() {
             }
         }
 
-        // Sort salles by capacity to find the best fit
+        
         usort($salles, function($a, $b) {
             return $a['capacite'] - $b['capacite'];
         });
@@ -124,7 +124,7 @@ function generate_planning() {
 function get_stats() {
     $salles = charger_donnees('salles');
     $planning = charger_donnees('planning');
-    $totalSlots = 10; // 5 days * 2 slots
+    $totalSlots = 10; 
 
     $report = [];
     foreach ($salles as $s) {

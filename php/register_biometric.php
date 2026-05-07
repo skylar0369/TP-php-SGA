@@ -54,7 +54,7 @@ if (!$username) {
                 const response = await fetch('webauthn_api.php?action=register-challenge');
                 const options = await response.json();
                 
-                // Prepare options for navigator.credentials.create
+             
                 options.challenge = base64ToBuffer(options.challenge);
                 options.user.id = base64ToBuffer(options.user.id);
 

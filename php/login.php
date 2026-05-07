@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     return;
                 }
 
-                // Prepare options for navigator.credentials.get
+            
                 options.challenge = base64ToBuffer(options.challenge);
                 options.allowCredentials = options.allowCredentials.map(c => ({
                     ...c,
