@@ -1,0 +1,12 @@
+[
+    {
+        "id": "AUD-L1",
+        "designation": "AUDITOIR L1",
+        "capacite": 100
+    },
+    {
+        "id": "AUD-L2",
+        "designation": "AUDITOIR L2",
+        "capacite": 80
+    }
+]

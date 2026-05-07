@@ -1,0 +1,14 @@
+[
+    {
+        "id": "C01",
+        "intitule": "Algorithme",
+        "volumeHoraire": 10,
+        "rattachement": "L1"
+    },
+    {
+        "id": "C02",
+        "intitule": "PHP",
+        "volumeHoraire": 10,
+        "rattachement": "L2"
+    }
+]

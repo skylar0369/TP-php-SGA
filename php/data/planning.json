@@ -1,0 +1,56 @@
+[
+    {
+        "jour": "Lundi",
+        "creneau": "08h00-12h00",
+        "id_salle": "AUD-L2",
+        "id_cours": "C01",
+        "intitule_cours": "Algorithme",
+        "id_groupe": "L1",
+        "designation_salle": "AUDITOIR L2"
+    },
+    {
+        "jour": "Lundi",
+        "creneau": "13h00-17h00",
+        "id_salle": "AUD-L2",
+        "id_cours": "C01",
+        "intitule_cours": "Algorithme",
+        "id_groupe": "L1",
+        "designation_salle": "AUDITOIR L2"
+    },
+    {
+        "jour": "Mardi",
+        "creneau": "08h00-12h00",
+        "id_salle": "AUD-L2",
+        "id_cours": "C01",
+        "intitule_cours": "Algorithme",
+        "id_groupe": "L1",
+        "designation_salle": "AUDITOIR L2"
+    },
+    {
+        "jour": "Lundi",
+        "creneau": "08h00-12h00",
+        "id_salle": "AUD-L1",
+        "id_cours": "C02",
+        "intitule_cours": "PHP",
+        "id_groupe": "L2",
+        "designation_salle": "AUDITOIR L1"
+    },
+    {
+        "jour": "Lundi",
+        "creneau": "13h00-17h00",
+        "id_salle": "AUD-L1",
+        "id_cours": "C02",
+        "intitule_cours": "PHP",
+        "id_groupe": "L2",
+        "designation_salle": "AUDITOIR L1"
+    },
+    {
+        "jour": "Mardi",
+        "creneau": "08h00-12h00",
+        "id_salle": "AUD-L1",
+        "id_cours": "C02",
+        "intitule_cours": "PHP",
+        "id_groupe": "L2",
+        "designation_salle": "AUDITOIR L1"
+    }
+]

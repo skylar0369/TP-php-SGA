@@ -1,0 +1,12 @@
+[
+    {
+        "id": "L1",
+        "libelle": "Licence-1",
+        "effectif": 80
+    },
+    {
+        "id": "L2",
+        "libelle": "Licence-2",
+        "effectif": 50
+    }
+]

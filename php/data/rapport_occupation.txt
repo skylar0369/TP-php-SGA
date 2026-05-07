@@ -1,0 +1,12 @@
+RAPPORT D'OCCUPATION DES SALLES
+==============================
+Salle: AUD-L1 (AUDITOIR L1)
+- Créneaux occupés: 3
+- Créneaux libres: 7
+- Taux d'occupation: 30%
+
+Salle: AUD-L2 (AUDITOIR L2)
+- Créneaux occupés: 3
+- Créneaux libres: 7
+- Taux d'occupation: 30%
+

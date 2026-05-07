@@ -1,0 +1,23 @@
+[
+    {
+        "username": "Dan ",
+        "password_hash": "$2y$10$ashRCxwzGgWg1DGS\/fb7kuPKpuVwPiS0I5dOJzCMSKYW98yNdPqX.",
+        "credentials": []
+    },
+    {
+        "username": "Dan",
+        "password_hash": "$2y$10$uNduEJkmd\/cQkGwPvu4CPON6Z.NOqk3Z6YB4zcXPlmUfGJDgCZ1NG",
+        "credentials": [
+            {
+                "id": "rp344jAKiB4vlAnPcXx0wQ",
+                "publicKey": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YViUSZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NdAAAAAOqbjWZNAR0hPOS2tIy1ddQAEK6d-OIwCogeL5QJz3F8dMGlAQIDJiABIVggGy9cBh_Xtne8dU_lhdpB8IO6tvyovSWpqrkzQcBH_HAiWCApYReqLRBj3oLrc83BNIH8FFHme97PAAvM5EgLiv6j5Q",
+                "signCount": 0
+            }
+        ]
+    },
+    {
+        "username": "Eureka",
+        "password_hash": "$2y$10$g6iWgbA.LUDy75CtVSzXdec8KesmV3F6kLM\/4gZrH5jqnvy2mwmSK",
+        "credentials": []
+    }
+]
